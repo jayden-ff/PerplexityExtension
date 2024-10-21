@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Perplexity AI Browsing Assistant",
+    "version": "1.1",
+    "description": "A Chrome extension for text and page analysis using Perplexity AI. Made by Jayden",
+    "permissions": ["contextMenus", "activeTab", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
